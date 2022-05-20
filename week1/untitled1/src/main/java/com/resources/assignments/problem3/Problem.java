@@ -5,6 +5,7 @@ public class Problem {
         boolean isNeg = num < 0;
         if (isNeg){
             num = num*-1; // make positive
+            isNeg = false;
         }
         int revInt = 0;
         int lastInt = 0;
@@ -15,7 +16,7 @@ public class Problem {
             num = num / 10; // strip off final digit to eventually end loop
         }
         
-        if (isNeg) {
+        if (!isNeg) {
             return revInt*-1;
         }
         return revInt;

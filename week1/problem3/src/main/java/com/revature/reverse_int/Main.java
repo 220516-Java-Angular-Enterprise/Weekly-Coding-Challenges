@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int i = new Random().nextInt();
+        int i = new Random().nextInt(2*2*2*2*2*2*2*2*2*2*2*2*2*2);
         System.out.println(i+" Changes to\n"+
-                new Solution().reverseInt(i));
+                new Solution().trueReverseInt(i));
     }
 }

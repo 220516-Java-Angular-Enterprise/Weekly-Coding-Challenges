@@ -1,9 +1,11 @@
 package com.revature.reverse_string;
 
-public class Main {
+public class UI {
     public static void main (String[] args){
+        Solution sol = new Solution();
         String testStr="Herp";
-        System.out.println(testStr.substring(1,1));
+
+        System.out.println(sol.reverseString(testStr));
     }
 
 }

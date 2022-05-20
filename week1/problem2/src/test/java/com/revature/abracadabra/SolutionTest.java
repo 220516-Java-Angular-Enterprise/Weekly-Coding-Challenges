@@ -2,10 +2,9 @@ package com.revature.abracadabra;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
+import main.com.revature.abracadabra.Solution;
+
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 

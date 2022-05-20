@@ -10,6 +10,7 @@ class SolutionTest {
 
     @Test
     void reverseString() {
+
         assertEquals("olleH", sol.reverseString("Hello"));
         assertEquals("!dlroW olleH", sol.reverseString("Hello World!"));
         assertEquals("54321", sol.reverseString("12345"));

@@ -8,7 +8,7 @@ public class Solution {
             reverse.append(s.charAt(i));
         }
         s = reverse.toString();
-        s.replace("^0","");
+        //s.replace("^0","");
         if(s.contains("-")){
             s = s.replace("-", "");
             n = Integer.valueOf(s) * -1;

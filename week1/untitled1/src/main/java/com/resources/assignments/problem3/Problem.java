@@ -14,7 +14,10 @@ public class Problem {
             revInt = revInt*10 + lastInt; // add lastInt to revInt
             num = num / 10; // strip off final digit to eventually end loop
         }
-
+        
+        if (isNeg) {
+            return revInt*-1;
+        }
         return revInt;
     }
 }

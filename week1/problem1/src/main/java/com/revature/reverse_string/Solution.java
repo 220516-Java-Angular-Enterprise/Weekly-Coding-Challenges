@@ -2,15 +2,17 @@ package com.revature.reverse_string;
 
 public class Solution {
     public String reverseString(String s) {
+        String reverse = "";
 
-        char[] try1 = s.toCharArray();
 
-        for (int i = try1.length - 1; i >= 0; i--)
-            System.out.print(try1[i]);
-        return "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            reverse += s.charAt(i);
+
+
+        }
+        return reverse;
+
+
     }
-
-        // throw new RuntimeException("TODO! Needs implementation...");
-
-    }
+}
 

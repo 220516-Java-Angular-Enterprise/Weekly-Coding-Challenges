@@ -6,21 +6,21 @@ import java.util.List;
 public class Solution {
     public List<String> abracadabra(int n) {
 
-       // String i;
-        //String ab1 = "abracadabra";
-       // String ab2 = "abraca";
-        //String ab3 = "dabra";
-       // String ab4 = i;
 
-        // List<String> stringArray = new ArrayList<>();
-        //for (int i=0;i<n;i++){
-        //if(n % 3 $$ n % 5 == 0) {
-        //return 0;
+        List<String> list = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) list.add("abracadabra");
+            else if (i % 3 == 0) list.add("abraca");
+            else if (i % 5 == 0) list.add("dabra");
+            else list.add(String.valueOf(i));
+
+        }
+        return list;
     }
 }
 
 
 
-        //throw new RuntimeException("TODO! Needs implementation...");
+
 
 

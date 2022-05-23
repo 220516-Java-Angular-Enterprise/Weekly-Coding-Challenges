@@ -1,4 +1,2 @@
-package com.revature.reverse_string;
-
-public class UI {
+package com.revature.reverse_string;public class Main {
 }

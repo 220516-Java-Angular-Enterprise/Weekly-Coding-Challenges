@@ -6,15 +6,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
 
-    Solution sol = new Solution();
+    Solution1 sol1 = new Solution1();
 
     @Test
     void reverseString() {
-        assertEquals("olleH", sol.reverseString("Hello"));
-        assertEquals("!dlroW olleH", sol.reverseString("Hello World!"));
-        assertEquals("54321", sol.reverseString("12345"));
-        assertEquals("%$#@!", sol.reverseString("!@#$%"));
-        assertEquals("", sol.reverseString(""));
-        assertEquals(".", sol.reverseString("."));
+        assertEquals("olleH", sol1.reverseString("Hello"));
+        assertEquals("!dlroW olleH", sol1.reverseString("Hello World!"));
+        assertEquals("54321", sol1.reverseString("12345"));
+        assertEquals("%$#@!", sol1.reverseString("!@#$%"));
+        assertEquals("", sol1.reverseString(""));
+        assertEquals(".", sol1.reverseString("."));
     }
 }

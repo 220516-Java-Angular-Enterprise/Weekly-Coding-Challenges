@@ -1,45 +1,58 @@
-package com.revature.abracadabra;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class Solution {
-
-
-    public List<String> abracadabra(int n) {
-
-//        Create variables to hold info
-//        int i = 0;
-        String s = "";
-
-//        create try catch for exception
-        List<String> newArr = new ArrayList();
-//        Create a for loop to compare given int with 0-given int and convert to array
-        for (int i = 1; i <= n; i++) {
-//            if i is less than n, add I to an array at the next index.
-
-//            if (i < n) {
-
-                if (i % 3 == 0) {
-                    s = "abraca";
-                    newArr.add(s);
-
-                } else if (i % 5 == 0) {
-                    s = "abraca";
-                    newArr.add(s);
-
-                } else if (i % 5 == 0 && i % 3 == 0) {
-                    s = "abraca";
-                    newArr.add(s);
-
-                } else
-                    s = String.valueOf(i);
-                newArr.add(s);
-            }
-
-
-//        throw new RuntimeException("TODO! Needs implementation...");
+//package com.revature.abracadabra;
+//
+//import java.util.ArrayList;
+//import java.util.List;
+//
+//public class Solution {
+//
+//
+//    public List<String> abracadabra(int n) {
+//<<<<<<< HEAD
+//
+////        Create variables to hold info
+////        int i = 0;
+//        String s = "";
+//
+////        create try catch for exception
+//        List<String> newArr = new ArrayList();
+////        Create a for loop to compare given int with 0-given int and convert to array
+//        for (int i = 1; i <= n; i++) {
+////            if i is less than n, add I to an array at the next index.
+//
+////            if (i < n) {
+//
+//                if (i % 3 == 0) {
+//                    s = "abraca";
+//                    newArr.add(s);
+//
+//                } else if (i % 5 == 0) {
+//                    s = "abraca";
+//                    newArr.add(s);
+//
+//                } else if (i % 5 == 0 && i % 3 == 0) {
+//                    s = "abraca";
+//                    newArr.add(s);
+//
+//                } else
+//                    s = String.valueOf(i);
+//                newArr.add(s);
+//            }
+//
+//
+////        throw new RuntimeException("TODO! Needs implementation...");
+////        }
+//        return newArr;
+//=======
+//        List<String> list = new ArrayList<>();
+//
+//        for (int i = 1; i <= n; i++) {
+//            if (i % 3 == 0 && i % 5 == 0) list.add("abracadabra");
+//            else if (i % 3 == 0) list.add("abraca");
+//            else if (i % 5 == 0) list.add("dabra");
+//            else list.add(String.valueOf(i));
 //        }
-        return newArr;
-    }
-}
+//
+//        return list;
+//>>>>>>> 3ba7d5c2ea2b9e3c28c414da627d577390bc82ef
+//    }
+//}

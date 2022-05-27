@@ -9,16 +9,16 @@ public class Solution {
     public List<String> abracadabra(int n) {
 
 //        Create variables to hold info
-        int i = 0;
+//        int i = 0;
         String s = "";
 
 //        create try catch for exception
         List<String> newArr = new ArrayList();
 //        Create a for loop to compare given int with 0-given int and convert to array
-        for (i = 0; i == n; i++) {
+        for (int i = 1; i <= n; i++) {
 //            if i is less than n, add I to an array at the next index.
 
-            if (i < n) {
+//            if (i < n) {
 
                 if (i % 3 == 0) {
                     s = "abraca";
@@ -39,7 +39,7 @@ public class Solution {
 
 
 //        throw new RuntimeException("TODO! Needs implementation...");
-        }
+//        }
         return newArr;
     }
 }

@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println("Your new number is: " + sol.reverseInt(123));
+//        System.out.println("Your new number is: " + sol.reverseInt(123));
     }
 }

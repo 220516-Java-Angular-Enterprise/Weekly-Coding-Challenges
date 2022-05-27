@@ -1,12 +1,12 @@
-package com.revature.reverse_string;
+package com.revature.problem1;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import com.revature.assignments.problem1.Problem;
+import org.testng.annotations.Test;
 
-class SolutionTest {
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    Solution sol = new Solution();
-
+public class ProblemTest1 {
+    Problem sol = new Problem();
     @Test
     void reverseString() {
         assertEquals("olleH", sol.reverseString("Hello"));

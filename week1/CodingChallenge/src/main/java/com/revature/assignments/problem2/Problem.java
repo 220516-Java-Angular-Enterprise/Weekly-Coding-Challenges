@@ -1,11 +1,12 @@
-package com.revature.abracadabra;
+package com.revature.assignments.problem2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
-    public List<String> abracadabra(int n) {
-        List<String> list = new ArrayList<>();
+public class Problem {
+
+    public List<String> newList(int n) {
+        List<String> list = new ArrayList<String>();
         int i;
         for (i=1; i<=n; i++ ) {
 
@@ -24,6 +25,6 @@ public class Solution {
             }
         }
 
-        throw new RuntimeException("TODO! Needs implementation...");
+        return list;
     }
 }

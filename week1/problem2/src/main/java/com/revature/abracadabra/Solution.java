@@ -6,6 +6,7 @@ import java.util.List;
 public class Solution {
     public List<String> abracadabra(int n) {
         List<String> list = new ArrayList<>();
+
         for(int i = 1; i <= n; i++){
             if((i % 3 == 0) && (i % 5 == 0)){
                 list.add("abracadabra");

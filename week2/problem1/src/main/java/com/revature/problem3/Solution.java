@@ -12,6 +12,7 @@ public class Solution {
 
         for (String word : words) {
             if (hashMap.containsKey(word)) {
+
                 hashMap.put(word, hashMap.get(word) + 1);
             } else {
                 hashMap.put(word, 1);

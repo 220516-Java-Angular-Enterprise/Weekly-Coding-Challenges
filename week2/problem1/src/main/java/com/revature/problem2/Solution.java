@@ -1,15 +1,20 @@
 package com.revature.problem2;
 
-import jdk.internal.icu.impl.BMPSet;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Solution {
-    String output = "";
-    public void stringMatch(String str, String strlong) {
-        for (String s: strlong) {
+    public String stringMap(List<String> bigstr) {
+       String pre = bigstr.get(0);
+       List<String> answer = new ArrayList<>();
 
-            if(strlong.contains(str)){
-
-            }
-        }
+       for(int i=0; i<bigstr.size(); i++) {
+           if(bigstr.get(i).contains(pre)) {
+               answer.add(bigstr.get(i));
+           }
+       }
+       System.out.println(answer);
+        return " ";
     }
+
 }

@@ -5,7 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class SolutionTest {
-    Solution s = new Solution();
+    //Solution s = new Solution();
+    Sol s = new Sol();
 
     @Test
     public void test1() {

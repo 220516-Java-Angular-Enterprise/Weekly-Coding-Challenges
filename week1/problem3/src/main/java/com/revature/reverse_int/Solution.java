@@ -20,11 +20,7 @@ public class Solution {
             num = String.valueOf(n);
         }
 
-
-
         //if  n  is negative
-
-
 
         rev = rev + reverseString(num);
         anw = Integer.parseInt(rev);

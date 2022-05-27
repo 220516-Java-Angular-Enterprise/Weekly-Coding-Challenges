@@ -1,41 +1,23 @@
 package com.revature.reverse_int;
 
-import java.util.ArrayList;
-
 public class Solution {
     public int reverseInt(int n) {
+        int reverse = 0;
+        boolean neg = false;
 
-        boolean negativeNum = false;
-
-        if (n < 0){
+        if (n < 0) {
             n *= -1;
-            negativeNum = true;
+            neg = true;
         }
 
-        String s = Integer.toString(n);
-        ArrayList<Character> newString = new ArrayList<Character>();
-        for
-        ( int i = s.length() - 1 ;
-          i >= 0 ;
-          i-- ) {
-            newString.add(s.charAt(i));
+        while (n != 0) {
+            int ln = n % 10;
+            reverse = (reverse * 10) + ln;
+            n /= 10;
         }
 
-        StringBuilder myString = new StringBuilder();
-        for(char c : newString){
-            myString.append(c);
-        }
+        if (neg) reverse *= -1;
 
-        //System.out.println(myString.toString());
-
-
-        int returnVal = Integer.parseInt(myString.toString());
-        if (negativeNum)
-            returnVal *= -1;
-        return returnVal;
-
-        //return myString.toString();
-
-
+        return reverse;
     }
 }

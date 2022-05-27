@@ -5,5 +5,6 @@ public class Solution {
         StringBuilder sReverse = new StringBuilder(s);
         sReverse.reverse();
         return sReverse.toString();
+
     }
 }

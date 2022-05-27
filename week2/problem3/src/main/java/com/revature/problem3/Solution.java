@@ -4,6 +4,16 @@ import java.util.*;
 
 public class Solution {
     public String wordCount(String sentence) {
-        throw new RuntimeException("TODO! Needs implementation...");
+        String[] myArr = sentence.split(" ");
+
+        String currString = myArr[0];
+        int count = 0;
+
+        for(String i : myArr){
+            if(currString.equals(i)){
+                count += 1;
+            }
+        }
+        return "";
     }
 }

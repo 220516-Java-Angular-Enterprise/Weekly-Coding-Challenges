@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/week2/problem1/problem1.iml" filepath="$PROJECT_DIR$/week2/problem1/problem1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week2/problem2/problem2.iml" filepath="$PROJECT_DIR$/week2/problem2/problem2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week2/problem3/problem3.iml" filepath="$PROJECT_DIR$/week2/problem3/problem3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/weekly-coding-challenges.iml" filepath="$PROJECT_DIR$/.idea/weekly-coding-challenges.iml" />
     </modules>
   </component>

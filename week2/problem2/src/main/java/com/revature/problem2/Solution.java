@@ -5,12 +5,10 @@ import java.util.ArrayList;
 =======
 import java.util.Collection;
 import java.util.Collections;
->>>>>>> eaf99ebc6aa7ac397911d8f249134f163ab648f9
 import java.util.List;
 
 public class Solution {
     public List<String> autoComplete(List<String> list) {
-<<<<<<< HEAD
 //         place to store new list
         List<String> result = new ArrayList<>();
 
@@ -18,7 +16,6 @@ public class Solution {
 
 
         return null;
-=======
         //Collections has a sort method.  Let's use that.
         List<String> sortedList = list.subList(1,list.size());
         Collections.sort(sortedList);
@@ -40,6 +37,5 @@ public class Solution {
         }
 
         return outList;
->>>>>>> ab3f71d9b33575f640efc05ceb05fb920f42ff43
     }
 }

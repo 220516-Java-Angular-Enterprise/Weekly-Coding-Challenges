@@ -1,6 +1,7 @@
 package com.revature.problem1;
 
 public class Main {
+<<<<<<< HEAD
 
     int arr[]= {1,4,5,2,7};
             int k=4;
@@ -10,4 +11,9 @@ public class Main {
                     return arr[i]+1;
     }
 
+=======
+    public static void main(String[] args) {
+
+    }
+>>>>>>> eaf99ebc6aa7ac397911d8f249134f163ab648f9
 }

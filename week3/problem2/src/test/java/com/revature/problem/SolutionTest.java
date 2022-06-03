@@ -1,5 +1,6 @@
-package com.revature.problem;
+package java.com.revature.problem;
 
+import main.java.com.revature.problem.Solution;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

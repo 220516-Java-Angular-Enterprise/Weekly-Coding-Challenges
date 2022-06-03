@@ -7,8 +7,19 @@ public class Solution {
         throw new RuntimeException("TODO! Needs implementation...");
 
         for (int i = 0; i < arr.length; i++) {
+
             if (k > arr[i]) {
                 System.out.println("Index:" + i + "Value:"+ arr[i]);
             }
         }
     }}
+//Answer
+Arrays.sort(arr);
+for(int:n){
+        if(k<n){
+        if(n-k>1)return k+=1
+        else k++;
+        }
+return k;
+
+        }

@@ -13,6 +13,9 @@ lines.*/
 public class Solution {
     public List<String> autoComplete(List<String> list) {
         throw new RuntimeException("TODO! Needs implementation...");
-        
+
     }
 }
+// Answer for problem 2
+String prefix=list.get(0);
+List<String>

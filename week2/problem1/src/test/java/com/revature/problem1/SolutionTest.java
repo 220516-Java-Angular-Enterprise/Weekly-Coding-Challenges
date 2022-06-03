@@ -21,7 +21,7 @@ public class SolutionTest {
         int[] arr = {1, 4, 5, 2, 7};
         int k = 4;
 
-        assertEquals(22, s.elementNotInArray(arr, k));
+        assertEquals(6, s.elementNotInArray(arr, k));
     }
 
     @Test

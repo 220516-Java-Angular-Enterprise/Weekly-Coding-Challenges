@@ -10,7 +10,6 @@ public class Solution {
             hMap.put(s,hMap.get(s)+1);
         }
         for (int i = 0; i < hMap.size(); i++){
-            hMap.containsValue();
         }
         String a = " ";
         return a;

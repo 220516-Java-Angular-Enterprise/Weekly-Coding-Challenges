@@ -3,11 +3,16 @@ package com.revature.problem;
 public class Solution {
     public String deleteAllNumbers(String s) {
 
+        StringBuilder sb = new StringBuilder();
         String noNum;
-
-        for (int i = 0; i < s.length(); i++) {
-            if (equals(s[i]))
+        char c;
+        for (int i = 0; i <= s.length(); i++) {
+            if (!Character.isDigit(s.charAt(i))) {
+                sb.append((i));
+                i++;
+            }
         }
+        return noNum;
 
         throw new RuntimeException("TODO! Needs implementation...");
     }

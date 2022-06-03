@@ -1,12 +1,26 @@
 package com.revature.problem2;
 
+<<<<<<< HEAD
+=======
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+>>>>>>> 2e05c3b824bf216d17031eae2146fb2d3e30ccb1
 import java.util.List;
 
 public class Solution {
     public List<String> autoComplete(List<String> list) {
+<<<<<<< HEAD
+        list.add("dog");
+        list.add("cat");
+        list.add("bird");
+        list.add("donut");
+        list.add("cake");
+        list.add("dough");
+
+
+        throw new RuntimeException("TODO! Needs implementation...");
+=======
         //Collections has a sort method.  Let's use that.
         List<String> sortedList = list.subList(1,list.size());
         Collections.sort(sortedList);
@@ -28,5 +42,6 @@ public class Solution {
         }
 
         return outList;
+>>>>>>> 2e05c3b824bf216d17031eae2146fb2d3e30ccb1
     }
 }

@@ -20,7 +20,11 @@ public class SolutionTest {
         int[] arr = {1, 4, 5, 2, 7};
         int k = 4;
 
+<<<<<<< HEAD
+        assertEquals(22, s.elementNotInArray(arr, k));
+=======
         assertEquals(6, s.elementNotInArray(arr, k));
+>>>>>>> 2e05c3b824bf216d17031eae2146fb2d3e30ccb1
     }
 
     @Test

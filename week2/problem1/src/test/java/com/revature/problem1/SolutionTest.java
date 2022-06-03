@@ -5,7 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class SolutionTest {
+<<<<<<< HEAD
     com.revature.problem1.Solution s = new com.revature.problem1.Solution();
+=======
+    Solution s = new Solution();
+>>>>>>> 850f03a (week2 coding challenge)
 
     @Test
     public void test1() {
@@ -20,7 +24,11 @@ public class SolutionTest {
         int[] arr = {1, 4, 5, 2, 7};
         int k = 4;
 
+<<<<<<< HEAD
         assertEquals(6, s.elementNotInArray(arr, k));
+=======
+        assertEquals(22, s.elementNotInArray(arr, k));
+>>>>>>> 850f03a (week2 coding challenge)
     }
 
     @Test

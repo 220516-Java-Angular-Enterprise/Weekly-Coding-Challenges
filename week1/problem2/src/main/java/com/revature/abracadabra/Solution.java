@@ -1,9 +1,11 @@
 package com.revature.abracadabra;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
     public List<String> abracadabra(int n) {
+<<<<<<< HEAD
         String str1 = "abracadabra";
         String str2 = "abraca";
         String str3 = "dabra";
@@ -21,5 +23,17 @@ public class Solution {
         }
 
         throw new RuntimeException("TODO! Needs implementation...");
+=======
+        List<String> list = new ArrayList<>();
+        
+        for (int i = 1; i <= n; i++) {
+            if (i % 3 == 0 && i % 5 == 0) list.add("abracadabra");
+            else if (i % 3 == 0) list.add("abraca");
+            else if (i % 5 == 0) list.add("dabra");
+            else list.add(String.valueOf(i));
+        }
+
+        return list;
+>>>>>>> 850f03a (week2 coding challenge)
     }
 }

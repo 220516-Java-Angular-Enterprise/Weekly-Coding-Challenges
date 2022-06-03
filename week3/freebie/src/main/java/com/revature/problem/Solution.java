@@ -2,6 +2,15 @@ package com.revature.problem;
 
 public class Solution {
     public String deleteAllNumbers(String s) {
-        throw new RuntimeException("TODO! Needs implementation...");
+        String anw = "";
+
+        for(char c: s.toCharArray()){
+            if(Character.isDigit(c)){
+
+            }else {
+                anw += c;
+            }
+        }
+        return anw;
     }
 }

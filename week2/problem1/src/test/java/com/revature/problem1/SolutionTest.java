@@ -1,8 +1,8 @@
-package java.com.revature.problem1;
+package com.revature.problem1;
 
 import org.junit.Test;
 
-import java.com.revature.problem1.Solution;
+import com.revature.problem1.Solution;
 
 import static org.junit.Assert.*;
 
@@ -22,7 +22,7 @@ public class SolutionTest {
         int[] arr = {1, 4, 5, 2, 7};
         int k = 4;
 
-        assertEquals(22, s.elementNotInArray(arr, k));
+        assertEquals(6, s.elementNotInArray(arr, k));
     }
 
     @Test

@@ -9,12 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/week1/problem2/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/week1/problem3/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week1/problem3/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/week2/problem1/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/week2/problem1/src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/week2/problem2/src/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week2/problem2/src/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/week2/problem3/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week2/problem3/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/week2/problem1/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week2/problem1/src/test/java" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

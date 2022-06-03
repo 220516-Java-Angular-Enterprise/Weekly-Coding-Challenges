@@ -25,6 +25,8 @@ hs_err_pid*
 *\target\
 *\.idea\*
 
-.idea
-out
-.iml
+*.idea
+*out
+*.iml
+
+*.DS_Store

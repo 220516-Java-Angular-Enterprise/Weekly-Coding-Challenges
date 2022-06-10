@@ -44,10 +44,10 @@ public class Frequency_Of_String_Words {
     }
 
     // Driver Code
-    public static void main(String[] args) {
-        String str = "Geeks For Geeks";
+   /* public static void main(String[] args) {
+        String str = "hello world world";
 
         // Function Call
         count_freq(str);
     }
-}
+}*/
